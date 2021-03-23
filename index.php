@@ -7,11 +7,11 @@
 
   <body>
     <a-scene embedded arjs>
-       <a-marker-camera preset='hiro'></a-marker-camera>
+       
       <a-entity scale=".2 .2 .2"> 
         <a-entity obj-model="pez.obj" scale="3 3 3" crossOrigin="anonymous">
         </a-entity>
-       
+       <a-marker-camera preset='hiro'></a-marker-camera>
         </a-scene>
       </body>
     </html>

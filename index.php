@@ -11,7 +11,7 @@
             <a-entity>
                <a-entity gltf-model="pez.obj" scale="5 5 5" crossOrigin="anonymous"> 
             </a-entity>
-        <a-entity-camera preset="hiro"></a-entity-camera>
+        <a-marker-camera preset="hiro"></a-marker-camera>
         </a-scene>
     </body>
 </html>

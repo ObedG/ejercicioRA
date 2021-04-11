@@ -8,7 +8,7 @@
   <body>
     <a-scene embedded arjs>
       <a-entity scale=".2 .2 .2"> 
-        <a-entity gltf-model="sombrero3.glb" rotation="180 180 180" crossOrigin="anonymous"></a-entity>       
+        <a-entity gltf-model="sombrero3.glb" rotation="37.3 3.16 107" crossOrigin="anonymous"></a-entity>       
         <a-marker-camera preset='hiro'></a-marker-camera>
       </a-entity>
      </a-scene>

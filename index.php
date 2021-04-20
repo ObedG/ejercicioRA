@@ -16,7 +16,7 @@
 
 
         </a-assets>
-        <a-entity id="mod" gltf-model="som.glb"> </a-entity>
+        <a-entity id="mod" gltf-model="som.glb" scale="0.190 0.190 0.190"> </a-entity>
 
     </a-scene>
 </body>

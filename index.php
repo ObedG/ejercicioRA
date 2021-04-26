@@ -32,7 +32,7 @@
         </a-entity>
         
         <a-entity id="mdl" mixin=" clickable bouncy">
-        <a-entity id="mod" gltf-model="casisom2.glb" scale="0.300 0.300 0.300" position="0 2 0"> </a-entity>
+        <a-entity id="mod" gltf-model="casisom2.glb" scale="0.300 0.300 0.300" position="-3 1 0"> </a-entity>
         </a-entity>
          
        

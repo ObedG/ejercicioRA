@@ -14,18 +14,31 @@
 
             <a-mixin id="campos" position="0 1 3"></a-mixin>
 
+            
+            <a-mixin id="ball" geometry="primitive: sphere;radius:1"></a-mixin>
+            
          <a-mixin id="clickable" onclick="moveTo"></a-mixin>
          <a-mixin id="bouncy"
          animation__bounceup="property: position; from: 0 0 0; to: 0 20 0; easing: easeInOutQuad; dur: 500; start-events: click, animationcomplete__bouncedown"
          animation__bouncedown="property: position; from: 0 20 0; to: 0 0 0; easing: easeInOutQuad; dur: 500; start-events: animationcomplete__bounceup"
          ></a-mixin>    
+         
+            <a-mixin id="orange" material="color: orange"></a-mixin>
+            <a-mixin id="red" material="color: red"></a-mixin>
             
         </a-assets>
+        <a-entity  id="e1" mixin=" midpos clickable">
+        <a-entity mixin="orange ball bouncy"></a-entity>
+        </a-entity>
+        
         <a-entity id="mdl" mixin="campos clickable bouncy">
         <a-entity id="mod" gltf-model="som.glb" scale="0.300 0.190 0.300"> </a-entity>
         </a-entity>
          
-        
+        </a-assets>
+        <a-entity  id="e2" mixin=" campos clickable">
+        <a-entity mixin="red ball bouncy"></a-entity>
+        </a-entity>
     </a-scene>
 </body>
 

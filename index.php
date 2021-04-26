@@ -31,11 +31,11 @@
         <a-entity mixin="orange ball bouncy"></a-entity>
         </a-entity>
         
-        <a-entity id="mdl" mixin="campos clickable bouncy">
+        <a-entity id="mdl" mixin=" clickable bouncy">
         <a-entity id="mod" gltf-model="som.glb" scale="0.300 0.190 0.300"> </a-entity>
         </a-entity>
          
-        </a-assets>
+       
         <a-entity  id="e2" mixin=" campos clickable">
         <a-entity mixin="red ball bouncy"></a-entity>
         </a-entity>
